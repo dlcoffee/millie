@@ -1,0 +1,31 @@
+header {
+  background: lavenderblush;
+  height: 4rem;
+  position: fixed;
+  left: 0rem;
+  right: 0rem;
+  display: block;
+}
+
+.header-content {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list-item {
+  list-style: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
