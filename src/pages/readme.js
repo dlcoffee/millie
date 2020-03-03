@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <div style={{ color: `teal` }}>
-      <p>Readme</p>
+    <div>
+      <h1>Readme</h1>
     </div>
   </Layout>
 )
