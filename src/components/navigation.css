@@ -17,6 +17,8 @@ header {
 
 .navigation {
   display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .nav-list {

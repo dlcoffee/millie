@@ -1,10 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import Content from "../components/content"
 
 export default () => (
   <Layout>
-    <div>
-      <h1>Readme</h1>
-    </div>
+    <Content>
+      <h1>readme</h1>
+    </Content>
   </Layout>
 )

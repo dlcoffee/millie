@@ -1,12 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
+import Content from "../components/content"
+
+import millie from "../millie.jpg"
 
 export default () => (
   <Layout>
-    <div>
-      <h1>home page</h1>
+    <Content>
+      <h1>this is millie</h1>
 
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
-    </div>
+      <img src={millie} alt="millie" width="400" />
+    </Content>
   </Layout>
 )
