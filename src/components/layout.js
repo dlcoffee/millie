@@ -3,9 +3,13 @@ import Navigation from "./navigation"
 
 import "./layout.css"
 
+const Main = ({ children }) => {
+  return <main className="main-body">{children}</main>
+}
+
 export default ({ children }) => (
   <div>
     <Navigation></Navigation>
-    <div className="main-body">{children}</div>
+    <Main>{children}</Main>
   </div>
 )
