@@ -1,15 +1,12 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Content from "../components/content"
 
 export default ({ data }) => (
-  <Layout>
+  <Layout image={data.file.childImageSharp.fluid} imageTitle="millie">
     <Content>
       <h1>this is millie</h1>
-
-      <Img fluid={data.file.childImageSharp.fluid} alt="millie" />
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
